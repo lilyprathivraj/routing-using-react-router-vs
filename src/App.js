@@ -14,7 +14,7 @@ const App = () => (
         <Route exact path="/about" Component={About} />
         <Route exact path="/contact" Component={Contact} />
         <Route exact path="/blogs/:id" Component={BlogItemDetails} />
-        <Route element={<NotFound />} />
+        <Route Component={NotFound} />
       </Routes>
    </BrowserRouter>
 )

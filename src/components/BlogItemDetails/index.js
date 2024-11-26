@@ -45,7 +45,6 @@ class BlogItemDetails extends Component{
   }
 
   render(){
-    console.log(this.props)
     return <div className="blog-container">{this.renderBlogItemDetails()}</div>
   }
 }
